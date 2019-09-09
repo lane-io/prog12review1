@@ -6,6 +6,9 @@ void draw() {
   background (243,145,123);
   
   textSize(50);
+  fill(256,256,256);
+  text("heart", 355, 100);
+  filter( BLUR, 10 );
   fill(253,210,190);
   text("this is a heart", 150, 100);
   fill(256,256,256);
